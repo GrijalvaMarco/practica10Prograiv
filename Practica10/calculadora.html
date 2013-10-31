@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>Calculadora</title>
+<script src="funciones.js"></script>
+</head>
+<body>
+<fieldset>
+		<legend>CALCULADORA</legend>
+		<label id="lblnum1">N&uacute;mero1</label><br/>
+		<input type="text" name="num1" id="n1" size="20" maxlength="20" onkeypress="javascript:return validarNro(event)" required><br/>
+		<label id="lblnum2">N&uacute;mero2</label><br/>
+		<input type="text" name="num2" id="n2" size="20" maxlength="20" required><br/>
+		<input type="submit" name="btnsum" id="sum" value="+" required>
+		<input type="submit" name="btnrest" id="rest" value="-" required>
+		<input type="submit" name="btnmult" id="mult" value="*" required>
+		<input type="submit" name="btndiv" id="div" value="/" required>
+		<br>
+		<label id="lblres">Resultado</label><br/>
+		<input type="text" name="resul" id="res" size="20" maxlength="20" required><br/>
+	</fieldset>
+</body>
+</html>
